@@ -16,20 +16,26 @@
         android:text="Hello World!" />
 
     <TextView
-        android:text="Test"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView" />
+        android:text="Test" />
 
     <RadioButton
-        android:text="RadioButton"
+        android:id="@+id/radioButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radioButton" />
+        android:text="RadioButton" />
 
     <Button
-        android:text="Button"
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button" />
+        android:text="Button" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
 </LinearLayout>
