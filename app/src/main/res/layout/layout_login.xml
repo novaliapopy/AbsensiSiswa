@@ -12,28 +12,6 @@
     android:weightSum="1"
     tools:context="id.sch.smktelkom_mlg.project.xiirpl303132333.absensisiswa.Login">
 
-    <EditText
-        android:id="@+id/editTextNama"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Username"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/editTextThnLhr"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="numberSigned" />
-
-    <Button
-        android:id="@+id/buttonlogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="LOGIN" />
-
 
 </LinearLayout>
 
