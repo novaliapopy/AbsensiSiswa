@@ -10,32 +10,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.project.xiirpl303132333.absensisiswa.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Test" />
-
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="RadioButton" />
+        android:text="ABSENSI SISWA" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="LogIn" />
 
-    <ImageView
-        android:id="@+id/imageView"
+    <Button
+        android:id="@+id/buttonSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:src="@drawable/tel" />
+        android:text="Sign up" />
+
 </LinearLayout>

@@ -16,10 +16,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
-        <activity
-            android:name=".LayoutMain"
-            android:label="@string/title_activity_layout_main"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
