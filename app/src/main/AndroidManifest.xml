@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
+        <activity android:name=".activity_signup"></activity>
     </application>
 
 </manifest>
