@@ -11,6 +11,12 @@
     tools:context="id.sch.smktelkom_mlg.project.xiirpl303132333.absensisiswa.MainActivity">
 
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABSENSI SISWA" />
+
     <Button
         android:id="@+id/buttonlogin"
         android:layout_width="match_parent"
