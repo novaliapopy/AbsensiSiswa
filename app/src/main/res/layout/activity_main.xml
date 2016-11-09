@@ -15,7 +15,8 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ABSENSI SISWA" />
+        android:text="ABSENSI SISWA"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/buttonlogin"
