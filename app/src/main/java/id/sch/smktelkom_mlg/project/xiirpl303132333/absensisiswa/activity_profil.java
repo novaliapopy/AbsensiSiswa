@@ -5,7 +5,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -17,11 +19,22 @@ public class activity_profil extends AppCompatActivity implements View.OnClickLi
     //view objects
     private TextView textViewUserEmail;
     private Button buttonLogout;
+    ImageButton androidImageButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profil);
+
+        ImageButton androidImageButton = (ImageButton) findViewById(R.id.imageButtonAbsen);
+        androidImageButton.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                Toast.makeText(activity_profil.this, "sudah absen terimakasih ^^", Toast.LENGTH_SHORT).show();
+            }
+        });
+
 
         //initializing firebase authentication object
         firebaseAuth = FirebaseAuth.getInstance();

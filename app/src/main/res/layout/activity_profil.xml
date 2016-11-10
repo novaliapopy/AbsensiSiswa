@@ -32,7 +32,7 @@
             android:layout_width="216dp"
             android:layout_height="147dp"
             app:srcCompat="@drawable/fingerbutton"
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButtonAbsen"
             android:layout_weight="0.29"
             android:scaleType="fitCenter"
             android:background="@null"
