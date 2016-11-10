@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,7 +16,8 @@
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="1">
 
 
         <TextView
@@ -25,6 +27,16 @@
             android:layout_gravity="center_horizontal"
             android:text="Large Text"
             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageButton
+            android:layout_width="216dp"
+            android:layout_height="147dp"
+            app:srcCompat="@drawable/fingerbutton"
+            android:id="@+id/imageButton"
+            android:layout_weight="0.29"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_gravity="center_horizontal"/>
 
         <Button
             android:id="@+id/buttonLogout"
