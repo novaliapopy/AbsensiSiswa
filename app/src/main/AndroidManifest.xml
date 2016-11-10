@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="id.sch.smktelkom_mlg.project.xiirpl303132333.absensisiswa">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,7 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Login" />
+        <activity android:name=".activity_login" />
+        <activity android:name=".activity_signup" />
+        <activity android:name=".activity_profil"></activity>
     </application>
 
 </manifest>
