@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "932606686934",
-    "firebase_url": "https://absensi-siswa-58e37.firebaseio.com",
-    "project_id": "absensi-siswa-58e37",
-    "storage_bucket": "absensi-siswa-58e37.appspot.com"
+    "project_number": "11339585122",
+    "firebase_url": "https://absensi-siswa-6ffd8.firebaseio.com",
+    "project_id": "absensi-siswa-6ffd8",
+    "storage_bucket": "absensi-siswa-6ffd8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:932606686934:android:9c98be7e683ee4de",
+        "mobilesdk_app_id": "1:11339585122:android:9c98be7e683ee4de",
         "android_client_info": {
           "package_name": "id.sch.smktelkom_mlg.project.xiirpl303132333.absensisiswa"
         }
       },
       "oauth_client": [
         {
-          "client_id": "932606686934-2ilgc2quqd24437jvlt2mnhfm2g0tba7.apps.googleusercontent.com",
+          "client_id": "11339585122-5hbgcg6p2mecjfcg24c9nubmt9kas0of.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "id.sch.smktelkom_mlg.project.xiirpl303132333.absensisiswa",
-            "certificate_hash": "CDC2EF8467A02CD3C5D61F842F13AD83F7E33AFD"
+            "certificate_hash": "69849244D131D357147EB1B83DA4A9C0C3354280"
           }
         },
         {
-          "client_id": "932606686934-agc8ef8bvdfb8k1ejq91s6ruburvqi94.apps.googleusercontent.com",
+          "client_id": "11339585122-e4li1p9usv8h6bq5nppbule06qkomb2v.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCEIbB_s1cUZxqNAtiKpPTa77cyZLJvTC4"
+          "current_key": "AIzaSyDLXWNE7prXSr-tVfC12jOgg5letqi4TpA"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "932606686934-agc8ef8bvdfb8k1ejq91s6ruburvqi94.apps.googleusercontent.com",
+              "client_id": "11339585122-e4li1p9usv8h6bq5nppbule06qkomb2v.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
