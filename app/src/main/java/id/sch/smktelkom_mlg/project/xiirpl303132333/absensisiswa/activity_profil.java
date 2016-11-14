@@ -31,7 +31,9 @@ public class activity_profil extends AppCompatActivity implements View.OnClickLi
         {
             public void onClick(View v)
             {
-                Toast.makeText(activity_profil.this, "sudah absen terimakasih ^^", Toast.LENGTH_SHORT).show();
+                //getting current user
+                FirebaseUser user = firebaseAuth.getCurrentUser();
+                Toast.makeText(activity_profil.this, user.getEmail() + " sudah absen terimakasih ^^", Toast.LENGTH_SHORT).show();
             }
         });
 
