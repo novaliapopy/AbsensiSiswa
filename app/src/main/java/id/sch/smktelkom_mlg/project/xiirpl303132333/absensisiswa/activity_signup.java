@@ -6,8 +6,8 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -16,11 +16,13 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class activity_signup extends AppCompatActivity implements View.OnClickListener {
+
     //defining view objects
-    private EditText editTextEmail;
-    private EditText editTextPassword;
-    private Button buttonSignup;
-    private ProgressDialog progressDialog;
+    EditText editTextEmail;
+    EditText editTextPassword;
+    //Button buttonSignup;
+    ImageButton buttonSignup;
+    ProgressDialog progressDialog;
 
 
     //defining firebaseauth object
@@ -38,7 +40,7 @@ public class activity_signup extends AppCompatActivity implements View.OnClickLi
         editTextEmail = (EditText) findViewById(R.id.editTextEmail);
         editTextPassword = (EditText) findViewById(R.id.editTextPassword);
 
-        buttonSignup = (Button) findViewById(R.id.buttonSignup);
+        buttonSignup = (ImageButton) findViewById(R.id.buttonSignup);
 
         progressDialog = new ProgressDialog(this);
 

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,7 +16,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="1">
 
         <TextView
             android:id="@+id/textView"
@@ -29,7 +31,6 @@
             android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
             android:hint="Enter email"
             android:inputType="textEmailAddress" />
 
@@ -37,22 +38,24 @@
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
             android:hint="Enter password"
             android:inputType="textPassword" />
 
-        <Button
+        <ImageButton
             android:id="@+id/buttonSignin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:text="Signup" />
+            android:layout_height="50dp"
+            android:layout_weight="3.08"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/button" />
 
         <TextView
             android:id="@+id/textViewSignUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
+            android:clickable="true"
             android:text="Not have an account? Signup Here"
             android:textAlignment="center" />
 
