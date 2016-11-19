@@ -11,15 +11,18 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class activity_profil extends AppCompatActivity implements View.OnClickListener {
+    ImageButton androidImageButton;
+    DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
+    DatabaseReference mLoginRef = mRootRef.child("login");
     //firebase auth object
     private FirebaseAuth firebaseAuth;
-
     //view objects
     private TextView textViewUserEmail;
     private Button buttonLogout;
-    ImageButton androidImageButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +37,9 @@ public class activity_profil extends AppCompatActivity implements View.OnClickLi
                 //getting current user
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 Toast.makeText(activity_profil.this, user.getEmail() + " sudah absen terimakasih ^^", Toast.LENGTH_SHORT).show();
+                mLoginRef.push().setValue(user.getEmail() + " sudah absen terimakasih ^^");
             }
+
         });
 
 
@@ -68,7 +73,9 @@ public class activity_profil extends AppCompatActivity implements View.OnClickLi
     public void onClick(View view) {
         //if logout is pressed
         if (view == buttonLogout) {
+            FirebaseUser user = firebaseAuth.getCurrentUser();
             //logging out the user
+            mLoginRef.child(mRootRef.getKey()).removeValue();
             firebaseAuth.signOut();
             //closing activity
             finish();
