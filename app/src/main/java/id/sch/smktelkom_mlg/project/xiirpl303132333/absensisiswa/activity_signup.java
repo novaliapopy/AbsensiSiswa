@@ -33,6 +33,10 @@ public class activity_signup extends AppCompatActivity implements View.OnClickLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
+        // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+
         //initializing firebase auth object
         firebaseAuth = FirebaseAuth.getInstance();
 
@@ -46,6 +50,8 @@ public class activity_signup extends AppCompatActivity implements View.OnClickLi
 
         //attaching listener to button
         buttonSignup.setOnClickListener(this);
+
+
     }
 
     private void registerUser() {
@@ -95,4 +101,5 @@ public class activity_signup extends AppCompatActivity implements View.OnClickLi
         //calling register method on click
         registerUser();
     }
+
 }
