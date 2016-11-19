@@ -14,22 +14,12 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".activity_login" />
-        <activity android:name=".activity_profil" />
-        <activity
-            android:name=".activity_splash_screen"
-            android:label="@string/app_name">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-        </activity>
+        <activity android:name=".activity_signup" />
+        <activity android:name=".activity_profil"></activity>
     </application>
 
 </manifest>

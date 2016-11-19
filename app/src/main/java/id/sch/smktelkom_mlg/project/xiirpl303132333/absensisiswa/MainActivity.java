@@ -12,7 +12,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.buttonLoginSiswa).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.buttonSignup).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, activity_signup.class));
+            }
+        });
+
+        findViewById(R.id.buttonlogin).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, activity_login.class));
