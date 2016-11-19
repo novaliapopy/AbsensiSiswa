@@ -75,7 +75,6 @@ public class activity_profil extends AppCompatActivity implements View.OnClickLi
         if (view == buttonLogout) {
             FirebaseUser user = firebaseAuth.getCurrentUser();
             //logging out the user
-            mLoginRef.child(mRootRef.getKey()).removeValue();
             firebaseAuth.signOut();
             //closing activity
             finish();
