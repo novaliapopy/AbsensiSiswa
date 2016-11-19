@@ -10,24 +10,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.project.xiirpl303132333.absensisiswa.MainActivity">
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ABSENSI SISWA"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/buttonlogin"
+        android:id="@+id/buttonLoginSiswa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LogIn" />
-
-    <Button
-        android:id="@+id/buttonSignup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sign up" />
+        android:text="Siswa"
+        tools:ignore="HardcodedText" />
 
 </LinearLayout>

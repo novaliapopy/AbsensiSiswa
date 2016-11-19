@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <item
+        android:drawable="@drawable/button_signin_klik"
+        android:state_pressed="true" />
+
+    <item
+        android:drawable="@drawable/button_signin"
+        android:state_focused="true" />
+
+    <item android:drawable="@drawable/button_signin" />
+</selector>

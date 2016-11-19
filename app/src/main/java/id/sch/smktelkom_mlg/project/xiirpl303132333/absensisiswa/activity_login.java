@@ -114,7 +114,7 @@ public class activity_login extends AppCompatActivity implements View.OnClickLis
 
         if (view == textViewSignup) {
             finish();
-            startActivity(new Intent(this, activity_signup.class));
+            startActivity(new Intent(this, activity_login_admin.class));
         }
     }
 }
