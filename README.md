@@ -2,7 +2,7 @@
 
 ### Penjelasan Aplikasi ###
 
-Aplikasi dengan menggunakan gps(location) sesuai yang telah ditentukan sebagai bukti absensi khususnya siswa SMK TELKOM MALANG. <br> 
+Aplikasi dengan menggunakan gps(location) sesuai yang telah ditentukan, sebagai bukti absensi masuk (khususnya) siswa SMK TELKOM MALANG. <br> 
 Tata cara aplikasi :
 * Aktifkan GPS
 * Mendaftar(Register) jika belum terdaftar, dengan mengisi :
@@ -10,8 +10,8 @@ Tata cara aplikasi :
  * Password
 * Masuk ke menu Login :
  * Memasukkan email dan password sesuai yang telah dibuat.
-* Masuk ke menu utama untuk absensi 
-* Logout
+* Masuk ke menu utama untuk absensi (tekan button bentuk fingerprint)
+* Logout.
 
 ### Screenshoot ###
 1.<br>
