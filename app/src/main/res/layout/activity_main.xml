@@ -24,7 +24,7 @@
         tools:ignore="ContentDescription" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:paddingBottom="50dp"
+        android:paddingBottom="30dp"
         android:paddingTop="10dp"
         android:text="This is a blablabla text for test and i don't know what i'm doing right now"
         android:textAlignment="center"
@@ -52,13 +52,11 @@
 
     <ImageButton
         android:id="@+id/imageButtonSignup"
-        android:layout_width="211dp"
-        android:layout_height="78dp"
+        android:layout_width="206dp"
+        android:layout_height="63dp"
         android:layout_centerInParent="true"
         android:layout_gravity="center"
-        android:layout_weight="0.03"
         android:background="@null"
-        android:paddingTop="20dp"
         android:scaleType="fitCenter"
         app:srcCompat="@layout/custom_button_signup"
         tools:ignore="ContentDescription,InefficientWeight,ObsoleteLayoutParam" />
@@ -73,6 +71,21 @@
         android:scaleType="fitCenter"
         app:srcCompat="@layout/custom_button_signin"
         tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="30dp"
+        android:text="ENABLE GPS LOCATION" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        tools:text="TextView" />
 
 
 </LinearLayout>

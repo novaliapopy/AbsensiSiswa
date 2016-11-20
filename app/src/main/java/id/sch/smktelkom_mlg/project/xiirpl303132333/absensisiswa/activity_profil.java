@@ -17,7 +17,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class activity_profil extends AppCompatActivity implements View.OnClickListener {
     ImageButton androidImageButton;
     DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
-    DatabaseReference mLoginRef = mRootRef.child("login");
+    DatabaseReference mLoginRef = mRootRef.child("login").child("siswa");
     //firebase auth object
     private FirebaseAuth firebaseAuth;
     //view objects
@@ -76,6 +76,7 @@ public class activity_profil extends AppCompatActivity implements View.OnClickLi
             FirebaseUser user = firebaseAuth.getCurrentUser();
             //logging out the user
             firebaseAuth.signOut();
+
             //closing activity
             finish();
             //starting login activity
