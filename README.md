@@ -27,6 +27,7 @@ Tata cara aplikasi :
 * Tampilan form absensi(finger)
 ![s_5234385902478](https://cloud.githubusercontent.com/assets/22153524/20464521/2409d206-af7b-11e6-9b8f-39abdb352c66.jpg)
 ![s_5234385918348](https://cloud.githubusercontent.com/assets/22153524/20464522/2418f2b8-af7b-11e6-8453-1e45f68bc5f5.jpg)<br>
+
 ### Lampiran Video ###
 * Video Aplikasi
 
