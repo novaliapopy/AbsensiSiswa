@@ -15,7 +15,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="ObsoleteLayoutParam,UselessParent">
 
         <TextView
             android:id="@+id/textView2"
@@ -23,21 +24,24 @@
             android:layout_height="wrap_content"
             android:text="THIS IS SIGNUP FORM"
             android:textAlignment="center"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter email"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter password"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            tools:ignore="HardcodedText" />
 
         <ImageButton
             android:id="@+id/buttonSignup"
@@ -45,7 +49,8 @@
             android:layout_height="50dp"
             android:background="@null"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/button" />
+            app:srcCompat="@drawable/button_signin"
+            tools:ignore="ContentDescription" />
 
     </LinearLayout>
 
