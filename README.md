@@ -14,10 +14,19 @@ Tata cara aplikasi :
 * Logout.
 
 ### Screenshoot ###
-1.<br>
-2.<br>
-3.<br>
-
+* Tampilan awal<br>
+![s_5234385832002](https://cloud.githubusercontent.com/assets/22153524/20464439/435057b2-af7a-11e6-957a-5f23e6f0469e.jpg) 
+![s_5234385844619](https://cloud.githubusercontent.com/assets/22153524/20464456/6bab441a-af7a-11e6-908b-a8ef908a2cb0.jpg)
+* Tampilan setelah klik enablelocationgps<br>
+![s_5234385860297](https://cloud.githubusercontent.com/assets/22153524/20464481/b8224e06-af7a-11e6-9fd1-e2287a7cc468.jpg)<br>
+* Tampilan form signup
+![s_5234385876665](https://cloud.githubusercontent.com/assets/22153524/20464489/d71adbf2-af7a-11e6-9bd0-d68a664be7ef.jpg)
+![s_5234385889585](https://cloud.githubusercontent.com/assets/22153524/20464501/f0b7eec4-af7a-11e6-804d-957797bc01d7.jpg)
+* Tampilan form signin
+![s_5234385941179](https://cloud.githubusercontent.com/assets/22153524/20464507/0aa0330a-af7b-11e6-917f-bfacd15c8f2d.jpg)<br>
+* Tampilan form absensi(finger)
+![s_5234385902478](https://cloud.githubusercontent.com/assets/22153524/20464521/2409d206-af7b-11e6-9b8f-39abdb352c66.jpg)
+![s_5234385918348](https://cloud.githubusercontent.com/assets/22153524/20464522/2418f2b8-af7b-11e6-8453-1e45f68bc5f5.jpg)<br>
 ### Lampiran Video ###
 * Video Aplikasi
 
