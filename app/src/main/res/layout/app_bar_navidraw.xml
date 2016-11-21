@@ -32,6 +32,7 @@
             android:layout_width="216dp"
             android:layout_height="147dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
             android:layout_weight="0.29"
             android:background="@null"
             android:scaleType="fitCenter"

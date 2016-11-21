@@ -141,8 +141,14 @@ public class Navidraw extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
-            callFragment(fragment);
+            FirebaseUser user = firebaseAuth.getCurrentUser();
+            //logging out the user
+            firebaseAuth.signOut();
+
+            //closing activity
+            finish();
+            //starting login activity
+            startActivity(new Intent(this, activity_login.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
