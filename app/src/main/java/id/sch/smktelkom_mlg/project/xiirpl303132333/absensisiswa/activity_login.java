@@ -47,7 +47,7 @@ public class activity_login extends AppCompatActivity implements View.OnClickLis
             //close this activity
             finish();
             //opening profile activity
-            startActivity(new Intent(getApplicationContext(), activity_profil.class));
+            startActivity(new Intent(getApplicationContext(), Navidraw.class));
         }
 
         //initializing views
@@ -96,7 +96,7 @@ public class activity_login extends AppCompatActivity implements View.OnClickLis
                         if (task.isSuccessful()) {
                             //start the profile activity
                             finish();
-                            startActivity(new Intent(getApplicationContext(), activity_profil.class));
+                            startActivity(new Intent(getApplicationContext(), Navidraw.class));
                         } else {
                             //display some message here
                             Toast.makeText(activity_login.this, "User tidak terdaftar!", Toast.LENGTH_LONG).show();
