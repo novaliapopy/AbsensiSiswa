@@ -19,25 +19,28 @@
         tools:ignore="UselessParent">
 
 
-        <TextView
-            android:id="@+id/textViewUserEmail"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Large Text"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
-
         <ImageButton
             android:id="@+id/imageButtonAbsen"
-            android:layout_width="216dp"
+            android:layout_width="268dp"
             android:layout_height="147dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/activity_horizontal_margin"
-            android:layout_weight="0.29"
+            android:layout_weight="0.31"
             android:background="@null"
+            android:paddingTop="80dp"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/fingerbutton"
             tools:ignore="ContentDescription,InefficientWeight" />
+
+        <TextView
+            android:id="@+id/textViewUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.04"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="Large Text"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
     </LinearLayout>
 
@@ -56,5 +59,15 @@
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_navidraw" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:text="Logout"
+        app:layout_anchorGravity="center_vertical|center_horizontal"
+        tools:ignore="HardcodedText" />
 
 </android.support.design.widget.CoordinatorLayout>
