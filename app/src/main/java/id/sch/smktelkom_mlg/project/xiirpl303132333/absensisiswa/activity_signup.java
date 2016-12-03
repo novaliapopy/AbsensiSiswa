@@ -46,6 +46,7 @@ public class activity_signup extends AppCompatActivity implements View.OnClickLi
 
         //attaching listener to button
         buttonSignup.setOnClickListener(this);
+
     }
 
     private void registerUser() {

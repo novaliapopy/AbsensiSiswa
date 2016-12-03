@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:paddingTop="20dp"
+        android:paddingTop="40dp"
         android:text="Hello, Mokleters"
         android:textAlignment="center"
         android:textColor="#ffffff"
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:paddingBottom="20dp"
+        android:paddingBottom="30dp"
         android:paddingTop="10dp"
         android:text="This is a blablabla text for test and i don't know what i'm doing right now"
         android:textAlignment="center"
@@ -59,7 +59,7 @@
         android:background="@null"
         android:scaleType="fitCenter"
         app:srcCompat="@layout/custom_button_signup"
-        tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+        tools:ignore="ContentDescription,InefficientWeight,ObsoleteLayoutParam" />
 
     <ImageButton
         android:id="@+id/imageButtonLogin"
@@ -77,14 +77,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_marginTop="10dp"
-        android:text="ENABLE GPS LOCATION" />
+        android:layout_marginTop="30dp"
+        android:text="ENABLE GPS LOCATION"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorWhite"
+        android:textColor="@color/colorAccent"
         tools:text="gps" />
 
 
