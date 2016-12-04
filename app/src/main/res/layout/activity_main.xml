@@ -44,7 +44,7 @@
         android:gravity="center"
         android:paddingBottom="30dp"
         android:paddingTop="10dp"
-        android:text="This is a blablabla text for test and i don't know what i'm doing right now"
+        android:text="Ini adalah Aplikasi Absensi Siswa."
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textSize="13dp"
