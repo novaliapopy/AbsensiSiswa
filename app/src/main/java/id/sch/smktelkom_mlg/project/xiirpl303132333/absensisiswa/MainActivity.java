@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onLocationChanged(Location location) {
 
-                textView.setText("Coordinat lokasi anda saat ini " + location.getLatitude() + " " + location.getLongitude());
+                textView.setText("\nLokasi anda saat ini " + location.getLatitude() + " " + location.getLongitude());
             }
 
             @Override
@@ -74,13 +74,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 startActivity(new Intent(MainActivity.this, activity_login.class));
-            }
-        });
-        findViewById(R.id.imageButtonSignup).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                startActivity(new Intent(MainActivity.this, activity_signup.class));
             }
         });
 
