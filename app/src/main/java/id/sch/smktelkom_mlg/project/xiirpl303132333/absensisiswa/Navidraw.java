@@ -97,7 +97,6 @@ public class Navidraw extends AppCompatActivity
         fragmentManager = getFragmentManager();
         if (savedInstanceState == null)
         {
-            fragment = new Root();
             callFragment(fragment);
         }
 
