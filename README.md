@@ -18,21 +18,20 @@ Tata cara aplikasi :
 ![s_5234385832002](https://cloud.githubusercontent.com/assets/22153524/20464439/435057b2-af7a-11e6-957a-5f23e6f0469e.jpg) 
 ![s_5234385844619](https://cloud.githubusercontent.com/assets/22153524/20464456/6bab441a-af7a-11e6-908b-a8ef908a2cb0.jpg)
 * Tampilan setelah klik enablelocationgps<br>
-![s_5234385860297](https://cloud.githubusercontent.com/assets/22153524/20464481/b8224e06-af7a-11e6-9fd1-e2287a7cc468.jpg)<br>
+![1](https://cloud.githubusercontent.com/assets/22153524/21011838/b90705be-bd85-11e6-9930-9b1db8c88976.PNG)<br>
 * Tampilan form signup
-![s_5234385876665](https://cloud.githubusercontent.com/assets/22153524/20464489/d71adbf2-af7a-11e6-9bd0-d68a664be7ef.jpg)
-![s_5234385889585](https://cloud.githubusercontent.com/assets/22153524/20464501/f0b7eec4-af7a-11e6-804d-957797bc01d7.jpg)
+![2](https://cloud.githubusercontent.com/assets/22153524/21011899/0a1cfc60-bd86-11e6-991b-82eb4b4fb502.PNG)
 * Tampilan form signin
-![s_5234385941179](https://cloud.githubusercontent.com/assets/22153524/20464507/0aa0330a-af7b-11e6-917f-bfacd15c8f2d.jpg)<br>
+![5](https://cloud.githubusercontent.com/assets/22153524/21011918/1819686c-bd86-11e6-8c6b-416c8433def3.PNG)<br>
 * Tampilan form absensi(finger)
-![s_5234385902478](https://cloud.githubusercontent.com/assets/22153524/20464521/2409d206-af7b-11e6-9b8f-39abdb352c66.jpg)
-![s_5234385918348](https://cloud.githubusercontent.com/assets/22153524/20464522/2418f2b8-af7b-11e6-8453-1e45f68bc5f5.jpg)<br>
+![3](https://cloud.githubusercontent.com/assets/22153524/21011931/29072f88-bd86-11e6-9e97-1c79960a6c1d.PNG)
+![4](https://cloud.githubusercontent.com/assets/22153524/21011930/2906c07a-bd86-11e6-8a0e-40ae5457a781.PNG)<br>
 
 ### Lampiran Video ###
-* Video Aplikasi
+* https://www.youtube.com/watch?v=x_mePBjeZlo
 
 ### Lampiran File APK ###
-* Link File Apk dari Aplikasi :
+* https://drive.google.com/a/smktelkom-mlg.sch.id/file/d/0B3AvSsw1DcflZEJHeWJDcnlCbkU/view?usp=sharing
 
 
 ### Identitas Anggota Kelompok ###
