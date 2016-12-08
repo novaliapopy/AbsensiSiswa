@@ -15,16 +15,16 @@ Tata cara aplikasi :
 
 ### Screenshoot ###
 * Tampilan awal<br>
-![s_5234385832002](https://cloud.githubusercontent.com/assets/22153524/20464439/435057b2-af7a-11e6-957a-5f23e6f0469e.jpg) 
-![s_5234385844619](https://cloud.githubusercontent.com/assets/22153524/20464456/6bab441a-af7a-11e6-908b-a8ef908a2cb0.jpg)
+![s_5234385832002](https://cloud.githubusercontent.com/assets/22153524/20464439/435057b2-af7a-11e6-957a-5f23e6f0469e.jpg)<br>
+![s_5234385844619](https://cloud.githubusercontent.com/assets/22153524/20464456/6bab441a-af7a-11e6-908b-a8ef908a2cb0.jpg)<br>
 * Tampilan setelah klik enablelocationgps<br>
 ![1](https://cloud.githubusercontent.com/assets/22153524/21011838/b90705be-bd85-11e6-9930-9b1db8c88976.PNG)<br>
-* Tampilan form signup
-![2](https://cloud.githubusercontent.com/assets/22153524/21011899/0a1cfc60-bd86-11e6-991b-82eb4b4fb502.PNG)
-* Tampilan form signin
+* Tampilan form signup <br>
+![2](https://cloud.githubusercontent.com/assets/22153524/21011899/0a1cfc60-bd86-11e6-991b-82eb4b4fb502.PNG)<br>
+* Tampilan form signin<br>
 ![5](https://cloud.githubusercontent.com/assets/22153524/21011918/1819686c-bd86-11e6-8c6b-416c8433def3.PNG)<br>
-* Tampilan form absensi(finger)
-![3](https://cloud.githubusercontent.com/assets/22153524/21011931/29072f88-bd86-11e6-9e97-1c79960a6c1d.PNG)
+* Tampilan form absensi(finger)<br>
+![3](https://cloud.githubusercontent.com/assets/22153524/21011931/29072f88-bd86-11e6-9e97-1c79960a6c1d.PNG)<br>
 ![4](https://cloud.githubusercontent.com/assets/22153524/21011930/2906c07a-bd86-11e6-8a0e-40ae5457a781.PNG)<br>
 
 ### Lampiran Video ###
