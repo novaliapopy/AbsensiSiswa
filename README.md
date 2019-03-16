@@ -2,6 +2,11 @@
 
 ### Penjelasan Aplikasi ###
 
+
+
+
+
+
 Aplikasi dengan menggunakan gps(location) sesuai yang telah ditentukan, sebagai bukti absensi masuk (khususnya) siswa SMK TELKOM MALANG. <br> 
 Tata cara aplikasi :
 * Aktifkan GPS
