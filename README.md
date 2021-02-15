@@ -65,9 +65,9 @@ Tata cara aplikasi :
   * Sekolah :SMK TELKOM MALANG
   
 * Absen 33
-  * Nama : Shania Asti Mafaza
+  * Nama : Shan
   * Kelas : XII RPL 3
   * No.Urut : 33
   * NIS : 4439/1337.063
-  * User Github : belabonga
+  * User Github : -
   * Nama Sekolah : SMK Telkom Malang
